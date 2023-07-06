@@ -68,7 +68,12 @@
 .bg-low-dark{
     background-color: var(--low-dark);
 }
-
+.bg-orainge{
+    background-color: var(--main-color);
+}
+.bg-dark-medium{
+    background-color: var(--dark-medium);
+}
 .second-black-color {
     background-color: var(--second-color);
 }
@@ -332,7 +337,7 @@ header {
     text-transform: uppercase;
 }
 
-.active {
+.navbar .active {
     color: var(--main-color) !important;
 }
 
@@ -1425,8 +1430,28 @@ ul {
 .point-box{
     width: 10px;
     height: 10px;
-    background-color: var(--main-color);
 }
+.tablist-box{
+    border-bottom: 5px solid var(--main-color) !important;
+}
+.tablist-box .active{
+    background-color: var(--main-color) !important;
+    color: var(--white-color) !important;
+    border-color: var(--main-color) !important;
+}
+.avatar-box{
+    min-width: 100px;
+    max-width: 101px;
+    height: 100px;
+}
+.avatar-box img{
+    object-fit: cover;
+}
+
+
+
+
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {}
 
