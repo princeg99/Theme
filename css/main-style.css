@@ -206,6 +206,10 @@
     background-position: center;
 }
 
+.hotel-bg-img-eleven {
+    background-image: url(../img/hotel/hotel-10.jpg);
+}
+
 .hotel-bg-img-nine {
     background-image: url(../img/hotel/hotel-12.jpg);
     background-size: cover;
@@ -264,6 +268,9 @@
 .breakfast-menu-box {
     border-bottom: 2px dotted var(--black-color);
 }
+.w-45{
+    width: 45%;
+}
 
 .main-container {
     width: 100%;
@@ -273,6 +280,8 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 100px 0;
+}
+.about-img{
 }
 
 .title-box {
@@ -1476,7 +1485,61 @@ ul {
     background-color: var(--white-color) !important;
     border-left: 0 !important;
 }
-
+.button-icon{
+    width: 20px;
+    height: 20px;
+}
+.h-24rem{
+    height: 24rem;
+}
+.h-22rem{
+    height: 22rem;
+}
+.h-18rem{
+    height: 18rem;
+}
+.h-16rem{
+    height: 16rem;
+}
+.h-20rem{
+    height: 20rem;
+}
+.h-19rem{
+    height: 19rem;
+}
+.h-14rem{
+    height: 14rem;
+}
+.h-17rem{
+    height: 17rem;
+}
+.h-10rem{
+    height: 10rem;
+}
+.about-border{
+    border: 2px solid var(--main-color);
+    min-width: 40%;
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    z-index: -1;
+}
+.offer-tag{
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/hotel/Star1.svg);
+    background-size: 100% 100%;
+    transform: rotate(-30deg);
+}
+.card-hover .card-img-top{
+    height: 400px;
+}
+.border-dashed{
+    border: 1px dashed var(--black-color);
+}
+.user-img-box{
+    height: 300px;
+}
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {}
@@ -1623,3 +1686,4 @@ ul {
         top: 25%;
     }
 }
+
