@@ -553,7 +553,7 @@ select {
 }
 
 .review-star {
-    width: 12px;
+    width: 12px !important;
     height: 12px;
     margin: 0 2px;
 }
@@ -635,7 +635,8 @@ ul {
 
 .book-btn {
     transform: rotate(-90deg);
-    margin: 30px 80%;
+    right: 0; 
+    top: 8%;
     border: 2px solid var(--main-color);
     padding: 5px 10px;
     background-color: transparent;
@@ -1539,6 +1540,22 @@ ul {
 }
 .user-img-box{
     height: 300px;
+}
+.about-card-img{
+    height: 250px;
+}
+.contact-v1-form{
+    width: 90%;
+    background: var(--white-color);
+}
+.map-box{
+    margin-top: -50px;
+    position: relative;
+    z-index: -1;
+}
+/* home-v2 */
+.index-v2-home{
+    height: calc(100vh - 56px);
 }
 
 /* Small devices (landscape phones, 576px and up) */
