@@ -268,7 +268,8 @@
 .breakfast-menu-box {
     border-bottom: 2px dotted var(--black-color);
 }
-.w-45{
+
+.w-45 {
     width: 45%;
 }
 
@@ -281,8 +282,8 @@
     margin: 0 auto;
     padding: 100px 0;
 }
-.about-img{
-}
+
+.about-img {}
 
 .title-box {
     display: inline-block;
@@ -635,7 +636,7 @@ ul {
 
 .book-btn {
     transform: rotate(-90deg);
-    right: 0; 
+    right: 0;
     top: 8%;
     border: 2px solid var(--main-color);
     padding: 5px 10px;
@@ -1486,38 +1487,49 @@ ul {
     background-color: var(--white-color) !important;
     border-left: 0 !important;
 }
-.button-icon{
+
+.button-icon {
     width: 20px;
     height: 20px;
 }
-.h-24rem{
+
+.h-24rem {
     height: 24rem;
 }
-.h-22rem{
+
+.h-22rem {
     height: 22rem;
 }
-.h-18rem{
+
+.h-18rem {
     height: 18rem;
 }
-.h-16rem{
+
+.h-16rem {
     height: 16rem;
 }
-.h-20rem{
+
+.h-20rem {
     height: 20rem;
 }
-.h-19rem{
+
+.h-19rem {
     height: 19rem;
 }
-.h-14rem{
+
+.h-14rem {
     height: 14rem;
 }
-.h-17rem{
+
+.h-17rem {
     height: 17rem;
 }
-.h-10rem{
+
+.h-10rem {
     height: 10rem;
 }
-.about-border{
+
+.about-border {
     border: 2px solid var(--main-color);
     min-width: 40%;
     position: absolute;
@@ -1525,37 +1537,76 @@ ul {
     right: 25%;
     z-index: -1;
 }
-.offer-tag{
+
+.offer-tag {
     width: 70px;
     height: 70px;
     background-image: url(../img/hotel/Star1.svg);
     background-size: 100% 100%;
     transform: rotate(-30deg);
 }
-.card-hover .card-img-top{
+
+.card-hover .card-img-top {
     height: 400px;
 }
-.border-dashed{
+
+.border-dashed {
     border: 1px dashed var(--black-color);
 }
-.user-img-box{
+
+.user-img-box {
     height: 300px;
 }
-.about-card-img{
+
+.about-card-img {
     height: 250px;
 }
-.contact-v1-form{
+
+.contact-v1-form {
     width: 90%;
     background: var(--white-color);
 }
-.map-box{
+
+.map-box {
     margin-top: -50px;
     position: relative;
     z-index: -1;
 }
+
 /* home-v2 */
-.index-v2-home{
+.index-v2-home {
     height: calc(100vh - 56px);
+}
+
+.index-v2-img-hight {
+    height: 300px;
+}
+
+.home-v2-feature-box {
+    width: 150px;
+    height: 150px;
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(../img/icon/crop.png) 76 round;
+    margin: auto;
+}
+.home-v2-news-box{
+    height: 450px;
+}
+.home-v2-bg-img-one{
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 58.91%, rgba(0, 0, 0, 0.50) 73.63%), url(../img/hotel/home-v2-1.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+.home-v2-bg-img-three{
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 58.91%, rgba(0, 0, 0, 0.50) 73.63%), url(../img/hotel/home-v2-2.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+.home-v2-bg-img-two{
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 58.91%, rgba(0, 0, 0, 0.50) 73.63%), url(../img/hotel/home-v2-3.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -1703,4 +1754,3 @@ ul {
         top: 25%;
     }
 }
-
